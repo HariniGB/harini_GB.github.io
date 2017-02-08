@@ -1,0 +1,18 @@
+ body.index{
+	background-image: url(http://i.imgur.com/k3MtCq1l.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+h1 {
+	text-align: center;
+}
+body.contact{
+	background-image: url(http://i.imgur.com/L1lHD1tl.jpg); 
+	width: 100% ;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+body{
+	background-color: #ADD8E6;
+}
