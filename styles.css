@@ -4,6 +4,60 @@
 	background-size: cover;
 	width: 100%;
 }
+.index h1{
+	color: rgb(100,220,255);
+}
+.index p {
+	color: #ffffff;
+}
+.index ol{
+	color: #ffffff;
+}
+.index nav{
+	display: block;
+	font: caption;
+	font-size: 1.7em;
+	color: #3fa9f5;
+}
+#mywebsite {
+	display: inline-block;
+	border-radius: 15px;
+	border: 2px #ffffff;
+}
+#footer {
+	position:fixed;
+    bottom:0;
+    text-align: center;
+	background-color: #000000;
+	left: 50%;
+	width:75%;
+	margin-left:-37.5%;
+}
+#footer p{
+	color: #ffffff;
+}
+a.pseudo:link {
+   color: #3fa9f5;
+}
+a.pseudo:visited {
+    color: #fbf757;
+}
+a.pseudo:hover  {
+    color: #f767bf;
+}
+a.pseudo:active {
+    color: #d62d20;
+}
+.profile {
+	position: relative;
+	display: block;
+	z-index: -1;
+	top: 10px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.2em;
+	font color: #2d2da5;
+}
 h1 {
 	text-align: center;
 }
