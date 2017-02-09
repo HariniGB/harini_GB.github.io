@@ -1,53 +1,73 @@
- body.index{
+body.index {
 	background-image: url(http://i.imgur.com/k3MtCq1l.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
 }
-.index h1{
-	color: rgb(100,220,255);
+.index h1 {
+	color: rgb(100, 220, 255);
 }
+
 .index p {
 	color: #ffffff;
 }
-.index ol{
+
+.index ol {
 	color: #ffffff;
 }
-.index nav{
+
+nav {
 	display: block;
 	font: caption;
-	font-size: 1.7em;
+	font-size: 1.2em;
 	color: #3fa9f5;
 }
+
 #mywebsite {
 	display: inline-block;
 	border-radius: 15px;
-	border: 2px #ffffff;
+	border: 1px ;
+    border-style: solid;
+	border-color:red orange yellow blue;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	font-size: 2em;
+	font-family: cursive;
+	margin-left: 30px;
+	margin-right: 30px;
 }
+
 #footer {
-	position:fixed;
-    bottom:0;
-    text-align: center;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
 	background-color: #000000;
 	left: 50%;
-	width:75%;
-	margin-left:-37.5%;
+	width: 75%;
+	margin-left: -37.5%;
 }
-#footer p{
+
+#footer p {
 	color: #ffffff;
 }
+
 a.pseudo:link {
-   color: #3fa9f5;
+	color: #3e6ff5;
 }
+
 a.pseudo:visited {
-    color: #fbf757;
+	color: #fbf757;
 }
-a.pseudo:hover  {
-    color: #f767bf;
+
+a.pseudo:hover {
+	color: #f767bf;
 }
+
 a.pseudo:active {
-    color: #d62d20;
+	color: #d62d20;
 }
+
 .profile {
 	position: relative;
 	display: block;
@@ -58,15 +78,172 @@ a.pseudo:active {
 	font-size: 1.2em;
 	font color: #2d2da5;
 }
+.profile img{
+	border-radius: 50%;
+}
+
 h1 {
 	text-align: center;
 }
-body.contact{
-	background-image: url(http://i.imgur.com/L1lHD1tl.jpg); 
-	width: 100% ;
+
+body.contact {
+	background-image: url(http://i.imgur.com/L1lHD1tl.jpg);
+	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover
 }
-body{
+
+body {
 	background-color: #ADD8E6;
+}
+.aboutheader {
+    text-align: center;
+    font-style: oblique;
+}
+#abouth1 {
+	color: #2d2da5;
+	text-decoration: underline;
+}
+table, th, td {
+	border: 1px solid black;
+    margin-left:auto; 
+    margin-right:auto; 
+}
+.borderline{
+    border-radius: 15px;
+	border: 2px ;
+    border-style: outset;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+h4 {
+	text-align: center;
+	color: rgb(100,100,255);
+}
+.tr1 {
+  background-color: #f4f1af;
+}
+.tr2 {
+	background-color: #25BCB6;
+}
+.tr3 {
+	background-color: #DE9FB6;
+}
+.tr4 {
+	background-color: #EECF5E;
+}
+span {
+	color: #006400;
+}
+#th1 {
+	background-color:  #8bb6f9;
+}
+#th2 {
+	background-color:  #F0A756;
+}
+#td1 {
+	background-color: #EECF5E;
+}
+#td2 {
+	text-align: center;
+}
+.aboutbody {
+    background-repeat: no-repeat;
+	background-size: cover;
+    background: #adb6f9; 
+    background: -webkit-linear-gradient( #adb6f9, #fbc9c9 ); 
+    background: -o-linear-gradient( #adb6f9, #fbc9c9 ); 
+    background: -moz-linear-gradient( #adb6f9, #fbc9c9 ); 
+    background: linear-gradient( #adb6f9, #fbc9c9 ); 
+}
+.tablehobby {
+	border: 3px solid #fd1111; 
+	margin-left:auto; 
+    margin-right:auto;
+	background-color: #ffdf96;
+}
+.video {
+	width:560px;
+	height:315px;
+	border: 3px;
+}
+#imagetable {
+	border: 3px;
+	height: 120px;
+	width: 120px;
+}
+.righttop {
+    background-image: url("http://i.imgur.com/JjHsWNgt.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    z-index: -1;
+}
+.lefttop {
+    background-image: url("http://i.imgur.com/fCAA3kct.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    z-index: -1;
+}
+#baking {
+	text-decoration: blink;
+	color: #a37303; 
+	text-align: center;
+}
+#headcontact {
+	color: #38477b;
+	text-align: center;
+}
+.contactdiv {
+	width:200px;
+	background:#F9EECF;
+	border:1px dotted black;
+	text-align:center;
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #F0F8FF;
+  }
+  #mywebsite {
+    font-size: 1em;
+	font-family: sans-serif; 
+	font-style: normal;
+  }
+  #abouth1 {
+  	font-size: 1em;
+  	font-weight: normal;
+  }
+  nav {
+  	font-size: 90%;
+  }
+  .aboutheader {
+  	font-size: 120%;
+  	font-style: normal;
+  	font-weight: normal; 
+  }
+  .righttop {
+  	background-image: none;
+  }
+  .lefttop {
+  	background-image: none;
+  }
+  table {
+  	width: 75%;
+  }
+  #tablehobby {
+    width: 100px;
+  }
+  #imagetable {
+  	width: 100%;
+    height: auto;
+  }
+  #headcontact {
+  	font-size: 1.2em;
+  	font-style: normal;
+  }
+  .video{
+  	width: 100%;
+    height: auto;
+    margin: auto;
+  }
 }
