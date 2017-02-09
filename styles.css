@@ -19,7 +19,7 @@ body.index {
 nav {
 	display: block;
 	font: caption;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	color: #3fa9f5;
 }
 
@@ -99,6 +99,7 @@ body {
 .aboutheader {
     text-align: center;
     font-style: oblique;
+    font-size: 1.6em;
 }
 #abouth1 {
 	color: #2d2da5;
@@ -111,7 +112,7 @@ table, th, td {
 }
 .borderline{
     border-radius: 15px;
-	border: 2px ;
+	border: 4px ;
     border-style: outset;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -119,7 +120,7 @@ table, th, td {
 }
 h4 {
 	text-align: center;
-	color: rgb(100,100,255);
+	color: #b43689;
 }
 .tr1 {
   background-color: #f4f1af;
@@ -195,7 +196,7 @@ span {
 	text-align: center;
 }
 .contactdiv {
-	width:200px;
+	width:30%;
 	background:#F9EECF;
 	border:1px dotted black;
 	text-align:center;
@@ -204,24 +205,25 @@ span {
 	text-align: center;
 	color: rgb(255,100,100);
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   body {
     background-color: #F0F8FF;
   }
   #mywebsite {
-    font-size: 1em;
-	font-family: sans-serif; 
+    font-size: 100%;
+	font-family: "Helvetica" sans-serif arial; 
 	font-style: normal;
+	font-weight: normal;
   }
   #abouth1 {
-  	font-size: 1em;
+  	font-size: 130%;
   	font-weight: normal;
   }
   nav {
-  	font-size: 90%;
+  	font-size: 120%;
   }
   .aboutheader {
-  	font-size: 120%;
+  	font-size: 130%;
   	font-style: normal;
   	font-weight: normal; 
   }
