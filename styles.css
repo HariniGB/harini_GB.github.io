@@ -200,6 +200,10 @@ span {
 	border:1px dotted black;
 	text-align:center;
 }
+#submit {
+	text-align: center;
+	color: rgb(255,100,100);
+}
 @media screen and (max-width: 500px) {
   body {
     background-color: #F0F8FF;
